@@ -27,7 +27,19 @@ Or if you prefer using Yarn:
 ```sh
 $ yarn install
 ```
+## Setup envpirment file
 
+rename env.example file into .env and update the credentials of email server and Mongoose Url
+
+```
+MONGO_URI=YOUR_MONGO_URL
+
+email_host=YOUR_EMAIL_HOST
+email_port=YOUR_EMAIL_PORT
+email_user=YOUR_EMAIL_USER
+email_pass=YOUR_EMAIL_PASSWORD
+
+```
 ## Usage
 
 ### Serving the app
